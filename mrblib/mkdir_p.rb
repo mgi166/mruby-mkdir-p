@@ -6,6 +6,8 @@ class Dir
     end
   end
 
+  private
+
   def self.descend_path(path)
     result = []
     dirname = path
